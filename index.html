@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yinkavelli - Producer & DJ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 60px 40px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .artist-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0, 212, 255, 0.3);
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #00d4ff, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .tagline {
+            font-size: 1.1em;
+            color: #a0a0a0;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+        }
+
+        .genres {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 50px;
+            font-style: italic;
+        }
+
+        .about {
+            margin-bottom: 50px;
+            line-height: 1.6;
+            color: #d0d0d0;
+        }
+
+        .about p {
+            margin-bottom: 15px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 40px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(45deg, #00d4ff, #7c3aed);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            padding: 10px 20px;
+            font-size: 0.9em;
+            background: rgba(0, 212, 255, 0.2);
+            border: 1px solid rgba(0, 212, 255, 0.5);
+            color: #00d4ff;
+        }
+
+        .social-links a:hover {
+            background: rgba(0, 212, 255, 0.3);
+            border-color: rgba(0, 212, 255, 0.8);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .container {
+                padding: 40px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="DJ_Velli_in_the_Mix.png" alt="DJ Velli" class="artist-image">
+        
+        <h1>YINKAVELLI</h1>
+        <p class="tagline">PRODUCER • DJ • VOCALIST</p>
+        
+        <p class="genres">RnB • HipHop • Pop • New Soul • EDM</p>
+
+        <div class="links">
+            <a href="https://open.spotify.com/artist/YOUR_ARTIST_ID" target="_blank">🎵 Listen on Spotify</a>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Yinkavelli. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
